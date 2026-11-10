@@ -12,7 +12,7 @@ O VigiaIA responde a perguntas técnicas sobre mobilidade urbana e o ecossistema
 - Eduardo Akira Murata — RM 98713
 - Wesley Souza de Oliveira — RM 97874
 
-Confira os nomes e RMs antes da publicação.
+- Video referente ao projeto: https://youtu.be/61MAQKuJZdk
 
 ## Requisitos
 
