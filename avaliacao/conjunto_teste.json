@@ -1,0 +1,50 @@
+[
+  {
+    "id": "QA001",
+    "question": "Qual é o objetivo principal do VigiaVia?"
+  },
+  {
+    "id": "QA002",
+    "question": "Quais grupos são considerados público do projeto?"
+  },
+  {
+    "id": "QA003",
+    "question": "Qual modelo de visão computacional foi informado?"
+  },
+  {
+    "id": "QA004",
+    "question": "Qual dataset foi informado para treinar o detector?"
+  },
+  {
+    "id": "QA005",
+    "question": "Qual licença foi informada para o RDD2022?"
+  },
+  {
+    "id": "QA006",
+    "question": "Qual é o raio padrão de deduplicação do RPA?"
+  },
+  {
+    "id": "QA007",
+    "question": "Como a gravidade é mapeada para prioridade?"
+  },
+  {
+    "id": "QA008",
+    "question": "Qual banco local é usado pelo consumidor RPA?"
+  },
+  {
+    "id": "QA009",
+    "question": "A API do MVP armazena as imagens enviadas?"
+  },
+  {
+    "id": "QA010",
+    "question": "Qual é o procedimento oficial da subprefeitura para executar o reparo?"
+  },
+  {
+    "id": "QA011",
+    "question": "O MVP está integrado a sistema municipal real em produção?"
+  },
+  {
+    "id": "QA012",
+    "question": "Quais são os campos obrigatórios do CSV de entrada?"
+  }
+]

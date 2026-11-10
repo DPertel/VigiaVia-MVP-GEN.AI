@@ -1,0 +1,135 @@
+[
+  {
+    "id": "QA001",
+    "expected_sources": [
+      "VIGIAVIA_MVP_SINTESE"
+    ],
+    "expected_terms": [
+      "zeladoria",
+      "buracos"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA002",
+    "expected_sources": [
+      "VIGIAVIA_MVP_SINTESE"
+    ],
+    "expected_terms": [
+      "motociclistas",
+      "ciclistas",
+      "pedestres"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA003",
+    "expected_sources": [
+      "VIGIAVIA_MVP_SINTESE"
+    ],
+    "expected_terms": [
+      "YOLO26n"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA004",
+    "expected_sources": [
+      "VIGIAVIA_MVP_SINTESE"
+    ],
+    "expected_terms": [
+      "RDD2022"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA005",
+    "expected_sources": [
+      "VIGIAVIA_MVP_SINTESE"
+    ],
+    "expected_terms": [
+      "CC BY-SA 4.0"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA006",
+    "expected_sources": [
+      "VIGIAVIA_RPA_SINTESE"
+    ],
+    "expected_terms": [
+      "20 metros",
+      "Haversine"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA007",
+    "expected_sources": [
+      "VIGIAVIA_RPA_SINTESE"
+    ],
+    "expected_terms": [
+      "alta",
+      "média",
+      "baixa",
+      "prioridade"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA008",
+    "expected_sources": [
+      "VIGIAVIA_RPA_SINTESE"
+    ],
+    "expected_terms": [
+      "SQLite",
+      "mvp_consumer.sqlite3"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA009",
+    "expected_sources": [
+      "VIGIAVIA_MVP_SINTESE"
+    ],
+    "expected_terms": [
+      "não armazena"
+    ],
+    "must_abstain": false
+  },
+  {
+    "id": "QA010",
+    "expected_sources": [],
+    "expected_terms": [
+      "não consta na base de conhecimento"
+    ],
+    "must_abstain": true
+  },
+  {
+    "id": "QA011",
+    "expected_sources": [
+      "VIGIAVIA_MVP_SINTESE"
+    ],
+    "expected_terms": [],
+    "must_abstain": false,
+    "expected_terms_any": [
+      "não há evidência",
+      "não foi indicada integração"
+    ]
+  },
+  {
+    "id": "QA012",
+    "expected_sources": [
+      "VIGIAVIA_RPA_SINTESE"
+    ],
+    "expected_terms": [
+      "id",
+      "data",
+      "latitude",
+      "longitude",
+      "gravidade",
+      "descricao"
+    ],
+    "must_abstain": false
+  }
+]

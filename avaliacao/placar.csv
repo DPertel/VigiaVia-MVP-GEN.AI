@@ -1,0 +1,4 @@
+configuracao,modelo,Recall@1,Recall@3,JSON_valido,cobertura_citacoes,referencias_validas,recusas_corretas,latencia_media_s,VRAM_MB,RAM_MB,observacoes
+base,qwen2.5:0.5b,1.0,1.0,1.0,N/A,N/A,1.0,32.603,,,10/12 execucoes bem-sucedidas; 2 erros de execucao por indisponibilidade do Ollama; citacoes nao aplicaveis; completude dos termos esperados: 0%; latencia media afetada pelos timeouts.
+rag,qwen2.5:0.5b,1.0,1.0,1.0,0.9167,1.0,1.0,2.492,,,12/12 execucoes bem-sucedidas; cobertura de citacoes: 91.67%; validade das referencias citadas: 100%; completude dos termos esperados: 36.36%.
+agent_rag,qwen2.5:0.5b,1.0,1.0,1.0,0.9167,1.0,1.0,0.225,,,12/12 execucoes bem-sucedidas; cobertura de citacoes: 91.67%; validade das referencias citadas: 100%; completude dos termos esperados: 100%; latencia media influenciada por respostas deterministicas.

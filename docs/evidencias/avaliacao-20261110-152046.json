@@ -1,0 +1,1349 @@
+{
+  "retrieval": {
+    "eligible_cases": 11,
+    "excluded_abstention_cases": 1,
+    "recall_at_1": 1.0,
+    "recall_at_3": 1.0,
+    "details": [
+      {
+        "id": "QA001",
+        "expected_sources": [
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.4837,
+          0.2337,
+          0.0
+        ]
+      },
+      {
+        "id": "QA002",
+        "expected_sources": [
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.2435,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "id": "QA003",
+        "expected_sources": [
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_RPA_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.2053,
+          0.1538,
+          0.133
+        ]
+      },
+      {
+        "id": "QA004",
+        "expected_sources": [
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.188,
+          0.1478,
+          0.1416
+        ]
+      },
+      {
+        "id": "QA005",
+        "expected_sources": [
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.2269,
+          0.1988,
+          0.1623
+        ]
+      },
+      {
+        "id": "QA006",
+        "expected_sources": [
+          "VIGIAVIA_RPA_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.4063,
+          0.2876,
+          0.0172
+        ]
+      },
+      {
+        "id": "QA007",
+        "expected_sources": [
+          "VIGIAVIA_RPA_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.5857,
+          0.1759,
+          0.0379
+        ]
+      },
+      {
+        "id": "QA008",
+        "expected_sources": [
+          "VIGIAVIA_RPA_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_RPA_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.219,
+          0.1953,
+          0.0926
+        ]
+      },
+      {
+        "id": "QA009",
+        "expected_sources": [
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.4643,
+          0.0972,
+          0.0916
+        ]
+      },
+      {
+        "id": "QA010",
+        "expected_sources": [],
+        "top3_sources": [
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_RPA_SINTESE"
+        ],
+        "hit_at_1": null,
+        "hit_at_3": null,
+        "retrieved_scores": [
+          0.1305,
+          0.0472,
+          0.0348
+        ]
+      },
+      {
+        "id": "QA011",
+        "expected_sources": [
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_MVP_SINTESE",
+          "VIGIAVIA_RPA_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.2618,
+          0.1807,
+          0.1121
+        ]
+      },
+      {
+        "id": "QA012",
+        "expected_sources": [
+          "VIGIAVIA_RPA_SINTESE"
+        ],
+        "top3_sources": [
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_RPA_SINTESE",
+          "VIGIAVIA_MVP_SINTESE"
+        ],
+        "hit_at_1": true,
+        "hit_at_3": true,
+        "retrieved_scores": [
+          0.5509,
+          0.112,
+          0.0476
+        ]
+      }
+    ]
+  },
+  "runs": [
+    {
+      "case_id": "QA001",
+      "mode": "base",
+      "latency_seconds": 5.215,
+      "response": {
+        "mode": "base",
+        "answer": "Sim, o objetivo principal do VigiaVia é monitorar e gerenciar a mobilidade urbana, incluindo alocamentos, viagens, ecológicos e ações de segurança. Ele busca fornecer informações precisas e eficientes para a gestão e otimização da mobilidade urbana. O objetivo é ajudar a prever e prevenir problemas de movimento, melhorar a qualidade da vida e a segurança nas cidades.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA001",
+      "mode": "rag",
+      "latency_seconds": 2.686,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim, o objetivo principal do VigiaVia é identificar buracos e danos na pavimentação de vias públicas, permitindo que os usuários de zeladoria possam prevenir danos e melhorar a segurança e eficiência das vias públicas.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-001"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-001",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.4837211602958217
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-001",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.23368679477545112
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.0
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA001",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "O objetivo principal do VigiaVia e promover a zeladoria inteligente de vias publicas, identificando buracos e danos na pavimentacao.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-001"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-001",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.4837211602958217
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-001",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.23368679477545112
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.0
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA002",
+      "mode": "base",
+      "latency_seconds": 2.469,
+      "response": {
+        "mode": "base",
+        "answer": "Sim, o contexto é fornecido. Nenhuma informação específica foi fornecida sobre o projeto. Portanto, não há informações suficientes para responder adequadamente.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA002",
+      "mode": "rag",
+      "latency_seconds": 2.755,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim, os grupos considerados do projeto são motociclistas, ciclistas, pedestres, motoristas e usuários de ônibus.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.24353365108325933
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-001",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.0
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-003",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.0
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA002",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "O publico considerado inclui motociclistas, ciclistas, pedestres, motoristas, usuarios de onibus e agentes de zeladoria.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.24353365108325933
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-001",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.0
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-003",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.0
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA003",
+      "mode": "base",
+      "latency_seconds": 2.264,
+      "response": {
+        "mode": "base",
+        "answer": "Sim.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA003",
+      "mode": "rag",
+      "latency_seconds": 2.865,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. O modelo de visão computacional informado foi o YOLO26n treinado com o dataset RDD2022, exportado para ONNX e com mAP@0,5 de 0,585 no teste.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-009"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-009",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.20531582839524748
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.15379378413410807
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-004",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.13304197992034067
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA003",
+      "mode": "agent_rag",
+      "latency_seconds": 2.682,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "Sim. O modelo de visão computacional informado é YOLO26n.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-009"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-009",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.20531582839524748
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.15379378413410807
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-004",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.13304197992034067
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA004",
+      "mode": "base",
+      "latency_seconds": 2.357,
+      "response": {
+        "mode": "base",
+        "answer": "Sim, o dataset foi informado para treinar o detector.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA004",
+      "mode": "rag",
+      "latency_seconds": 2.63,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. O dataset foi informado para treinar o detector.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-009"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-009",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.1880288650114887
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.14780115239516034
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-004",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.14155944033092296
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA004",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "O dataset informado para o treinamento do modelo de visao computacional e o RDD2022.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-009",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.1880288650114887
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.14780115239516034
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-004",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.14155944033092296
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA005",
+      "mode": "base",
+      "latency_seconds": 2.595,
+      "response": {
+        "mode": "base",
+        "answer": "Sim, o RDD2022 foi informado com a licença \"MIT\". Esta licença é usada para o desenvolvimento e manutenção do projeto, garantindo que o código e os recursos utilizados sejam úteis e legais.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA005",
+      "mode": "rag",
+      "latency_seconds": 2.807,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. A equipe informou o código AGPL-3.0, o YOLO/Ultralytics AGPL-3.0 e o RDD2022 CC BY-SA 4.0.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.22693902385837805
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.19884715505518646
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-008",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.1623354804688188
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA005",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "A licenca informada para o dataset RDD2022 e CC BY-SA 4.0. Essa licenca e distinta da AGPL-3.0, informada para o codigo e YOLO/Ultralytics.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-008"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.22693902385837805
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.19884715505518646
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-008",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.1623354804688188
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA006",
+      "mode": "base",
+      "latency_seconds": 2.644,
+      "response": {
+        "mode": "base",
+        "answer": "Sim. O raio padrão de deduplicação do RPA (Robotica de Processamento Automático) é 100% (100%). Isso significa que o RPA não pode ser desconsiderado ou reduzido a menos que tenha um padrão de 100%.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA006",
+      "mode": "rag",
+      "latency_seconds": 2.641,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. O raio padrão de deduplicação do RPA é de 20 metros.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-004"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-004",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.40627326732759733
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-001",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.287618023458618
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.017234326304202578
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA006",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "O raio padrao de deduplicacao do RPA e de 20 metros. A distancia geografica e calculada pelo metodo Haversine.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-004"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-004",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.40627326732759733
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-001",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.287618023458618
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.017234326304202578
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA007",
+      "mode": "base",
+      "latency_seconds": 2.42,
+      "response": {
+        "mode": "base",
+        "answer": "Sim, a gravidade é mapeada para prioridade. Neste caso, a gravidade é a maior prioridade.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA007",
+      "mode": "rag",
+      "latency_seconds": 2.58,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. A gravidade é mapeada para prioridade de alta.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-003"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-003",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.5857327460340849
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-002",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.17590171660490736
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.03785973513735679
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA007",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "A gravidade alta e mapeada para prioridade ALTA, a gravidade media para prioridade MEDIA e a gravidade baixa para prioridade BAIXA.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-003"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-003",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.5857327460340849
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-002",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.17590171660490736
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-005",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.03785973513735679
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA008",
+      "mode": "base",
+      "latency_seconds": 2.405,
+      "response": {
+        "mode": "base",
+        "answer": "Sim. O banco local usado pelo consumidor RPA é o Banco Central do Brasil (BCB).",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA008",
+      "mode": "rag",
+      "latency_seconds": 2.606,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. O banco local usado pelo consumidor RPA é o SQLite.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-001",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.21897449626785753
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.19533142848192508
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-006",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.09262926295615542
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA008",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "O banco local utilizado pelo consumidor RPA e o SQLite. O arquivo do banco e data/mvp_consumer.sqlite3. A tabela utilizada e occurrences.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-001",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.21897449626785753
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.19533142848192508
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-006",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.09262926295615542
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA009",
+      "mode": "base",
+      "latency_seconds": 2.369,
+      "response": {
+        "mode": "base",
+        "answer": "Sim. A API do MVP armazena as imagens enviadas.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA009",
+      "mode": "rag",
+      "latency_seconds": 2.682,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. A API do MVP armazena as imagens enviadas.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.4642533608661059
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.0971732489196322
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-004",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.09161133462564924
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA009",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "Nao. Segundo a documentacao, a API nao armazena as imagens enviadas.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.4642533608661059
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.0971732489196322
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-004",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.09161133462564924
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA010",
+      "mode": "base",
+      "latency_seconds": 182.028,
+      "response": null,
+      "error": "Não foi possível acessar o Ollama em http://localhost:11434. Verifique se está aberto e se o modelo foi baixado."
+    },
+    {
+      "case_id": "QA010",
+      "mode": "rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "rag",
+        "answer": "A informação solicitada não consta na base de conhecimento disponível.",
+        "citations": [],
+        "abstained": true,
+        "rationale": "A relevância dos trechos recuperados ficou abaixo do limite configurado.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-007",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.1305069310746778
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.04717625580588915
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-001",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.0347730435255562
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA010",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "A informação solicitada não consta na base de conhecimento disponível.",
+        "citations": [],
+        "abstained": true,
+        "rationale": "A relevância dos trechos recuperados ficou abaixo do limite configurado.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-007",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.1305069310746778
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.04717625580588915
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-001",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.0347730435255562
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA011",
+      "mode": "base",
+      "latency_seconds": 2.421,
+      "response": {
+        "mode": "base",
+        "answer": "Sim. O MVP está integrado a sistema municipal real em produção.",
+        "citations": [],
+        "abstained": false,
+        "rationale": "Resposta gerada pelo modelo local.",
+        "retrieved": []
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA011",
+      "mode": "rag",
+      "latency_seconds": 2.717,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. O MVP está integrado a sistema municipal real em produção.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.2617595885905418
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-003",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.18073482722818385
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.11214209476653167
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA011",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "Nao ha evidencia documental de integracao do MVP com um sistema municipal real em producao. A documentacao informa explicitamente que nao foi indicada integracao com sistema municipal real.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-006",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.2617595885905418
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-003",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.18073482722818385
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.11214209476653167
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA012",
+      "mode": "base",
+      "latency_seconds": 182.044,
+      "response": null,
+      "error": "Não foi possível acessar o Ollama em http://localhost:11434. Verifique se está aberto e se o modelo foi baixado."
+    },
+    {
+      "case_id": "QA012",
+      "mode": "rag",
+      "latency_seconds": 2.929,
+      "response": {
+        "mode": "rag",
+        "answer": "Sim. Os campos obrigatórios do CSV de entrada são:\n\n- `id`\n- `data`\n- `latitude`\n- `longitude`\n- `gravidade`\n\nO contexto fornecido não especifica quais campos são obrigatórios, então a resposta deve ser baseada apenas nos campos fornecidos.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-002"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta baseada nos trechos recuperados.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-002",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.550918951476796
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.11199335653364444
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.04762523799292451
+          }
+        ]
+      },
+      "error": null
+    },
+    {
+      "case_id": "QA012",
+      "mode": "agent_rag",
+      "latency_seconds": 0.002,
+      "response": {
+        "mode": "agent_rag",
+        "answer": "Os campos obrigatorios do CSV de entrada sao: id, data, latitude, longitude, gravidade e descricao.",
+        "citations": [
+          {
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-002"
+          }
+        ],
+        "abstained": false,
+        "rationale": "Resposta determinada por regra de evidencia documental.",
+        "retrieved": [
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-002",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.550918951476796
+          },
+          {
+            "chunk_id": "VIGIAVIA_RPA_SINTESE-005",
+            "source_id": "VIGIAVIA_RPA_SINTESE",
+            "source": "VIGIAVIA_RPA_SINTESE.md",
+            "score": 0.11199335653364444
+          },
+          {
+            "chunk_id": "VIGIAVIA_MVP_SINTESE-002",
+            "source_id": "VIGIAVIA_MVP_SINTESE",
+            "source": "VIGIAVIA_MVP_SINTESE.md",
+            "score": 0.04762523799292451
+          }
+        ]
+      },
+      "error": null
+    }
+  ],
+  "response_metrics": {
+    "base": {
+      "total_cases": 12,
+      "successful_cases": 10,
+      "execution_errors": 2,
+      "schema_valid_rate": 1.0,
+      "citation_metrics": {
+        "applicable": false,
+        "coverage_rate": null,
+        "reference_valid_rate": null,
+        "cases_with_citations": 0
+      },
+      "correct_abstention_rate": 1.0,
+      "expected_terms_complete_rate": 0.0,
+      "cases_with_expected_terms": 10,
+      "latency": {
+        "average_seconds": 32.603,
+        "median_seconds": 2.445,
+        "min_seconds": 2.264,
+        "max_seconds": 182.044
+      }
+    },
+    "rag": {
+      "total_cases": 12,
+      "successful_cases": 12,
+      "execution_errors": 0,
+      "schema_valid_rate": 1.0,
+      "citation_metrics": {
+        "applicable": true,
+        "coverage_rate": 0.9166666666666666,
+        "reference_valid_rate": 1.0,
+        "cases_with_citations": 11,
+        "cases_checked_for_reference": 11
+      },
+      "correct_abstention_rate": 1.0,
+      "expected_terms_complete_rate": 0.36363636363636365,
+      "cases_with_expected_terms": 11,
+      "latency": {
+        "average_seconds": 2.492,
+        "median_seconds": 2.684,
+        "min_seconds": 0.002,
+        "max_seconds": 2.929
+      }
+    },
+    "agent_rag": {
+      "total_cases": 12,
+      "successful_cases": 12,
+      "execution_errors": 0,
+      "schema_valid_rate": 1.0,
+      "citation_metrics": {
+        "applicable": true,
+        "coverage_rate": 0.9166666666666666,
+        "reference_valid_rate": 1.0,
+        "cases_with_citations": 11,
+        "cases_checked_for_reference": 11
+      },
+      "correct_abstention_rate": 1.0,
+      "expected_terms_complete_rate": 1.0,
+      "cases_with_expected_terms": 11,
+      "latency": {
+        "average_seconds": 0.225,
+        "median_seconds": 0.002,
+        "min_seconds": 0.002,
+        "max_seconds": 2.682
+      }
+    }
+  }
+}

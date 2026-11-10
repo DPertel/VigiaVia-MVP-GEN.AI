@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1220">
+  <title>VigiaIA | Mobilidade Inteligente</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">V</div>
+        <div><strong>VigiaIA</strong><span>INTELIGÊNCIA URBANA</span></div>
+      </div>
+
+      <div class="side-label">PLATAFORMA</div>
+      <button class="nav-item active" data-page="chat">
+        <span class="nav-icon">◈</span> Assistente
+      </button>
+      <button class="nav-item" data-page="evaluation">
+        <span class="nav-icon">▥</span> Avaliação do modelo
+      </button>
+
+      <div class="sidebar-bottom">
+        <div class="system-card">
+          <span class="status-dot" id="side-dot"></span>
+          <div><strong id="side-status">Verificando API...</strong><small>Serviço local</small></div>
+        </div>
+        <div class="sidebar-foot">PROJETO ACADÊMICO ? 2026</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div><span class="eyebrow">MOBILIDADE URBANA</span><h1 id="page-title">Assistente inteligente</h1></div>
+        <div class="top-status"><span class="status-dot" id="top-dot"></span><span id="top-status">Conectando...</span></div>
+      </header>
+
+      <section id="chat-page" class="page active">
+        <div class="chat-layout">
+          <div class="chat-content">
+            <div class="flow-switch" role="group" aria-label="Tipo de assistente">
+              <button type="button" class="flow-option active" data-flow="qa">Tirar dúvidas</button>
+              <button type="button" class="flow-option" data-flow="report">Montar relato</button>
+            </div>
+            <div class="report-toolbar" id="report-toolbar" hidden>
+              <span>ASSISTENTE DE RELATOS VIÁRIOS</span>
+              <button type="button" id="new-report">Novo relato</button>
+            </div>
+            <div class="welcome" id="welcome">
+              <div class="welcome-symbol">✦</div>
+              <span class="eyebrow">VIGIAIA · ASSISTENTE</span>
+              <h2>Entenda melhor a<br><span>mobilidade urbana.</span></h2>
+              <p>Faça perguntas sobre o projeto VigiaVia, manutenção viária, detecção de buracos e processamento de ocorrências.</p>
+
+            </div>
+
+              <div class="suggestions" id="qa-suggestions">
+                <button class="suggestion" data-question="Qual é o objetivo principal do VigiaVia?"><span>01</span> Qual é o objetivo do VigiaVia?</button>
+                <button class="suggestion" data-question="Quem é o público considerado pelo projeto?"><span>02</span> Quem é o público do projeto?</button>
+                <button class="suggestion" data-question="Qual dataset foi utilizado no projeto?"><span>03</span> Qual dataset foi utilizado?</button>
+                <button class="suggestion" data-question="Quais tecnologias foram utilizadas no VigiaVia?"><span>04</span> Quais tecnologias foram utilizadas?</button>
+                <button class="suggestion" data-question="Como funciona a detecção de buracos nas vias?"><span>05</span> Como funciona a detecção de buracos?</button>
+                <button class="suggestion" data-question="Como funciona a deduplicação de ocorrências no RPA?"><span>06</span> Como funciona a deduplicação?</button>
+                <button class="suggestion" data-question="Como a gravidade de uma ocorrência é convertida em prioridade?"><span>07</span> Como é definida a prioridade?</button>
+                <button class="suggestion" data-question="O MVP está integrado a um sistema municipal real em produção?"><span>08</span> Existe integração municipal em produção?</button>
+              </div>
+
+            <div class="messages" id="messages" aria-live="polite"></div>
+
+            <div class="composer-wrap">
+              <div class="mode-row">
+                <label for="mode">MODO DE EXECUÇÃO</label>
+                <select id="mode">
+                  <option value="agent_rag">Agent + RAG · Recomendado</option>
+                  <option value="rag">RAG ? Recuperação + LLM</option>
+                  <option value="base">Base · LLM sem RAG</option>
+                </select>
+              </div>
+              <form id="ask-form" class="composer">
+                <textarea id="question" rows="1" maxlength="2000" placeholder="Pergunte algo sobre o VigiaVia..." required></textarea>
+                <button id="send" type="submit" aria-label="Enviar pergunta">↑</button>
+              </form>
+              <div class="composer-note">O VigiaIA utiliza um modelo local. As respostas podem exigir validação documental.</div>
+            </div>
+          </div>
+
+          <aside class="context-panel">
+            <div class="panel-heading"><span>CONTEXTO DO SISTEMA</span><span class="live-pill">LOCAL</span></div>
+            <div class="context-block">
+              <div class="context-icon">◉</div>
+              <strong>Modelo de linguagem</strong>
+              <p id="model-name">Verificando modelo...</p>
+            </div>
+            <div class="context-block">
+              <div class="context-icon">◉</div>
+              <strong>Base de conhecimento</strong>
+              <p>Documentação técnica do VigiaVia e do consumidor RPA.</p>
+            </div>
+            <div class="context-block">
+              <div class="context-icon">◉</div>
+              <strong>Respostas fundamentadas</strong>
+              <p>O modo Agent + RAG aplica regras documentais e apresenta referências.</p>
+            </div>
+            <div class="context-warning"><strong>Importante</strong><p>O assistente é um protótipo acadêmico. Não representa um sistema municipal em produção.</p></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="evaluation-page" class="page">
+        <div class="eval-intro">
+          <span class="eyebrow">RESULTADOS EXPERIMENTAIS</span>
+          <h2>Desempenho dos modelos</h2>
+          <p>Comparação baseada no arquivo de avaliação mais recente gerado pelo projeto.</p>
+          <div class="file-label" id="eval-file">Carregando resultados...</div>
+        </div>
+        <div class="metric-grid" id="retrieval-metrics">
+          <div class="metric-card"><span>Recall@1</span><strong id="recall1">?</strong><small>Recuperação do documento esperado em primeiro lugar</small></div>
+          <div class="metric-card"><span>Recall@3</span><strong id="recall3">?</strong><small>Recuperação do documento esperado entre os três primeiros</small></div>
+          <div class="metric-card"><span>Casos avaliáveis</span><strong id="eligible">?</strong><small>Casos positivos considerados no cálculo do recall</small></div>
+        </div>
+        <div class="section-heading"><div><span class="eyebrow">COMPARA??O</span><h3>Tr?s configura??es</h3></div><span class="file-label">Métricas da última execução</span></div>
+        <div class="comparison-grid" id="comparison"></div>
+        <div class="table-wrap">
+          <h3>Métricas detalhadas</h3>
+          <table>
+            <thead><tr><th>Indicador</th><th>Base</th><th>RAG</th><th>Agent + RAG</th></tr></thead>
+            <tbody id="metrics-table"><tr><td colspan="4">Carregando...</td></tr></tbody>
+          </table>
+        </div>
+        <div class="eval-disclaimer">Os indicadores refletem o conjunto de testes implementado no projeto. Recall mede recupera??o de fontes, n?o garante que toda resposta esteja semanticamente correta. A validade das referências n?o comprova, isoladamente, o suporte semântico da citação.</div>
+      </section>
+
+      <footer class="footer">VigiaIA <span>•</span> Assistente acadêmico de mobilidade urbana</footer>
+    </main>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

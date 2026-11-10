@@ -1,0 +1,4 @@
+﻿source_id,arquivo,tipo,licenca_informada,uso_no_rag,numero_trechos,procedencia,observacoes
+VIGIAVIA_MVP_SINTESE,VIGIAVIA_MVP_SINTESE.md,Markdown,Verificar repositório original,Sim,9,Síntese documental compartilhada pela equipe,Validar links e atribuição
+VIGIAVIA_RPA_SINTESE,VIGIAVIA_RPA_SINTESE.md,Markdown,Autoria equipe; verificar dependências,Sim,6,Síntese do protótipo RPA,Validar com código e README finais
+RDD2022,RDD2022,Dataset de imagens,CC BY-SA 4.0 informada pela equipe,Não é corpus textual,0,Dataset de visão informado no README,Contar imagens/classes consultando fonte oficial

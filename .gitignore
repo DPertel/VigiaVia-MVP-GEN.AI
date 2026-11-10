@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.pytest_cache/
+models/*
+!models/.gitkeep
+avaliacao/resultados/*
+!avaliacao/resultados/.gitkeep
+*.bak
+*.bak-*
+*.backup
+*.backup_*
+
+*.bak*
