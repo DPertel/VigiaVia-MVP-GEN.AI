@@ -83,14 +83,3 @@ RDD2022 é dataset de imagens de visão computacional, não corpus textual pront
 
 Repositório MVP informado: https://github.com/akiramrt/vigiavia-mvp
 
-## Checklist de entrega
-- [x] Estruturar a base textual e catalogar as fontes.
-- [x] Criar conjunto de teste e gabarito, incluindo caso sem evid?ncia.
-- [x] Medir Recall@1 e Recall@3.
-- [x] Comparar Base, RAG e Agent + RAG.
-- [x] Registrar placar e cinco erros reais com corre??es propostas.
-- [x] Criar ficha t?cnica, arquitetura e relat?rio consolidado.
-- [x] Executar notebook e salvar as sa?das.
-- [ ] Validar nomes/RMs, documentos originais, atribui??o e licen?as.
-- [ ] Adicionar prints reais em `docs/evidencias/`.
-- [ ] Publicar reposit?rio e v?deo; inserir links reais.
